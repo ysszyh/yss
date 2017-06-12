@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>这是第1个li</li>
+        <li>这是第2个li</li>
+        <li>这是第3个li</li>
+        <li>这是第4个li</li>
+        <li>这是第5个li</li>
+        <li>这是第6个li</li>
+        <li>这是第7个li</li>
+        <li>这是第8个li</li>
+        <li>这是第9个li</li>
+        <li>这是第10个li</li>
+        <li>这是第11个li</li>
+        <li>这是第12个li</li>
+        <li>这是第13个li</li>
+        <li>这是第14个li</li>
+        <li>这是第15个li</li>
+        <li>这是第16个li</li>
+        <li>这是第17个li</li>
+        <li>这是第18个li</li>
+        <li>这是第19个li</li>
+        <li>这是第20个li</li>
+    </ul>
+    <script>
+        var lis=document.querySelectorAll("ul>li");
+        lis.forEach(function(value,index){
+            if(index%2===0){
+                value.style.background="yellowGreen";
+            }else{
+                value.style.background="skyblue";
+            }
+        })
+    </script>
+</body>
+</html>
